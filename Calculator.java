@@ -18,6 +18,11 @@ public class Calculator {
         int difference = num1 - num2;
         System.out.println("Sum: " + sum);
         System.out.println("Difference: " + difference);
+
+        // Power function
+        double power = Math.pow(num1, num2);        
+        System.out.println("power: "+ power);
+
         scanner.close();
     }
 }
