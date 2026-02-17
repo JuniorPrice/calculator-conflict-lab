@@ -4,7 +4,7 @@ public class Calculator {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter first number: ");
         int num1 = scanner.nextInt();
-        System.out.print("Enter second number: ");
+        System.out.println("Enter second number: ");
         int num2 = scanner.nextInt();
 
         // Multiplication and Division
